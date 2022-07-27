@@ -1,0 +1,13 @@
+ h1{
+     font-family:Cursive;
+ }
+
+ .navbar{
+     background-color: aqua;
+     padding: 20px;
+     margin: 3px;
+ }
+ .navbar a{
+     color: rebeccapurple;
+     text-decoration: none;
+ }

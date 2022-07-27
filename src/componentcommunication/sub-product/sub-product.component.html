@@ -1,0 +1,29 @@
+<!-- <pre>{{prod|json}}</pre> -->
+
+
+<div class="card shadow-lg" *ngIf="prod">
+    <div class="card-header">
+        <img [src]="prod.image" width="250" height="250">
+    </div>
+     <div class="card-body">
+     <ul class="list-group">
+
+        <li class="list-group-item">
+            Sno:{{prod.sno}}
+           </li>
+
+         <li class="list-group-item">
+          Name:{{prod.name}}
+         </li>
+
+         <li class="list-group-item">
+            Name:{{prod.price | currency:'INR'}}
+           </li>
+
+           <li class="list-group-item">
+            Qty:{{prod.qty}}
+           </li>
+     </ul>
+     </div>
+      
+ </div>
